@@ -1,0 +1,294 @@
+body {
+   /* background-image: url("pic/background/back4.jpg" ) ;
+    -webkit-filter: blur(5px); /* Safari 6.0 - 9.0*/ 
+    */filter: blur(5px);
+    background-color: white;
+   background-repeat: no-repeat;
+   background-size:100% 100%;
+    margin-right: 1px;
+    color:red;
+    
+}
+div.sticky{
+	position:sticky;
+	position: -webkit-sticky;
+    
+    top: 0;
+    width:300%;
+    border: 20px solid white;
+    left:300%;
+    right: 300%;
+    height:70px;
+    z-index:5;
+	padding-top: -100px;
+    padding-right: -10px;
+    padding-bottom: -100px;
+    padding-left: -10px;
+    margin:-5px -5px -5px -1px;
+	 background-color: white;
+	 font-weight: bold;
+	}
+
+logo{
+	
+    margin:120px 100px 120px 100px;
+	 position:absolute;
+	 top:0;
+}
+
+.home{
+	text-decoration:none;
+	color:#004080;
+	font-size:15px;
+	font-family: Arial;/*"Times New Roman", Times, serif;
+	 */position: absolute;
+	 top: 25px;
+    left:400px;
+     right: 0;
+}
+.home:hover{
+	color: #00AAFF;
+}
+.aarti{
+	text-decoration:none;
+	color:#004080;
+	font-size:15px;
+	font-family: Arial;/*"Times New Roman", Times, serif;
+	 */position: absolute;
+	 top: 25px;
+    left:480px;
+     right: 0;
+}
+.aarti:hover{
+	color:#00AAFF;
+}
+.bhajan{
+	text-decoration:none;
+	color:#004080;
+	font-size:15px;
+	font-family: Arial;/*"Times New Roman", Times, serif;
+	 */position: absolute;
+	 top: 25px;
+    left:560px;
+     right: 0;
+}
+.bhajan:hover{
+	color:#00AAFF;
+}
+.chalisa{
+	text-decoration:none;
+	color:#004080;
+	font-size:15px;
+	font-family: Arial;/*"Times New Roman", Times, serif;
+	 */position: absolute;
+	 top: 25px;
+    left:650px;
+     right: 0;
+}
+.chalisa:hover{
+	color:#00AAFF;
+}
+.mantra{
+	text-decoration:none;
+	color:#004080;
+	font-size:15px;
+	font-family: Arial;/*"Times New Roman", Times, serif;
+	 */position: absolute;
+	 top: 25px;
+    left:750px;
+     right: 0;
+}
+.mantra:hover{
+	color:#00AAFF;
+}
+.vart{
+	text-decoration:none;
+	color:#004080;
+	font-size:15px;
+	font-family: Arial;/*"Times New Roman", Times, serif;
+	 */position: absolute;
+	 top: 25px;
+    left:840px;
+     right: 0;
+     white-space:nowrap;
+}
+.vart:hover{
+	color:#00AAFF;
+}
+.gallery{
+	text-decoration:none;
+	color:#004080;
+	font-size:15px;
+	font-family: Arial;/*"Times New Roman", Times, serif;
+	 */position: absolute;
+	 top: 25px;
+    left:970px;
+     right: 0;
+}
+.gallery:hover{
+	color:#00AAFF;
+}
+.about{
+	text-decoration:none;
+	color:#004080;
+	font-size:15px;
+	font-family: Arial;/*"Times New Roman", Times, serif;
+	 */position: absolute;
+	 top: 25px;
+    left:1080px;
+     right: 0;
+}
+.about:hover{
+	color:#00AAFF;
+}
+.om{
+	position:relative;
+	top:15px;
+	width:100%;
+	left:-20px;
+	z-index:-3;
+	border:12px white ;
+  
+}
+.mar{
+	position:static;
+	top:400px;
+	background-color:#F1F1F1;
+	height:40px;
+	padding-top:30px;
+	left:-20px;
+
+}
+div.aboutus{
+	position:relative;
+	top:150px;
+	border:2px solid white;
+	z-index:-3;
+	width:286%;
+	background-color:#d9e6ed;
+	left:-1px;
+	padding-top:50px;
+	padding-left:50px;
+	text-decoration:none;
+	color:gray;
+	font-size:15px;
+	font-weight: bold;
+	font-family: Arial;/*"Times New Roman", Times, serif;*/
+	
+}
+.about2{
+	position:relative;
+	border:2px solid black;
+	width:105%;
+	background-color:black;
+	color:white;
+	left:-50px;
+	font-size:15px;
+	z-index:-1;}
+	
+div.contact{
+	position:relative;
+	top:-100px;
+	font-size:20px;
+}
+.con{
+	width:100%;
+	height:100%;
+}
+
+#container {
+    margin: auto;
+    width: 1100px;
+    
+}
+.sidebar { 
+    width: 400px;
+    position:relative;
+    height: 100%;
+}
+.logo {
+    height: 50%;
+    position: relative;
+    top: 0;
+}
+.dropdown {
+    
+    display: inline-block;
+  
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left:480px;
+    margin-top:-9px;
+    height:270px;
+    
+}
+
+.dropdown-content a {
+    color: red;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline-block;
+     text-align: justify;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+div.left{
+	position:relative;
+	top:40px;
+	width:100%;
+	height:750px;
+	
+	
+}
+div.content{
+	position:absolute;
+	top:180px;
+	width:100%;
+	text-align:justify;
+	text-justify:inter-word;
+	z-index:-2;
+	margin-left: 415px;
+	padding:0px;
+	font-size:23px;
+}
+div.right{
+	position:absolute;
+	top:210px;
+	width:100%;
+	height:750px;
+	margin-left:775px;
+}
+
+.bal{
+	border:8px solid black;
+	position : relative;
+	margin-top:12px;
+	width:100%;
+	height:100%;
+}
+.balpic{
+	position:relative;
+	margin-left:0px;
+	margin-right:100px;
+	height:500px;
+	width:400px;
+		
+}
+.balaarti{
+	position:relative;
+	margin-left:401px;
+	margin-top:-500px;
+	width:100%;
+	
+}
